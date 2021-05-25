@@ -1,2 +1,2 @@
 # JavaScriptFinalProjecGame
-Finila work at JavaScript modul.
+Final work at JavaScript modul.
