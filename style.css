@@ -9,12 +9,13 @@ body {
 }
 
 .header {
-  margin: 135px auto  54px 102px;
+  margin: 135px auto  30px 102px;
 }
 .header__title {
   font-size: 57px;
   line-height: 48px;
   font-weight: 700;
+  margin: 0 0 -16px 0;
 }
 .header__text {
   font-size: 19px;
