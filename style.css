@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font: 50px/59px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  background: url(img/Background.png) 100%;
+  background-size: cover;
+  width: auto;
+  height: 1024px;
+}
+
+.header {
+  margin: 130px auto  50px 100px;
+}
+.header__title {
+  font-size: 57px;
+  line-height: 67px;
+  font-weight: 700;
+}
+.header__text {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.choice {
+  font-weight: 700;
+  margin-left: 157px;
+  line-height: 82px;
+}
+
+.choice__level {
+  position: relative;
+}
+
+.choice__level input {
+  display: none;
+}
+
+.choice__radio:checked+label::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -45px;
+  bottom: 2px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color: #d62b2e;
+  transform: rotate(45deg);
+}
+.choice__button {
+  font-size: 32px;
+  color: #fff;
+  background-color: #d62b2e;
+  width: 352px;
+  height: 95px;
+  border-radius: 7px;
+  transition: background .2s linear, color .1s linear;
+  margin: 112px auto auto -50px;
+}
+
+.choice__button:hover {
+  color: #d62b2e;
+  background-color: #fff;
+  font-size: 34px;
+}
+
+.cards__disine1,
+.cards__disine2 {
+  width: 218px;
+  height: 341px;
+  position: absolute;
+}
+
+.cards__disine1 {
+  top: 547px;
+  left: 1069px;
+  transform: rotate(39deg);
+}
+
+.cards__disine2 {
+  z-index: -1;
+  top: 530px;
+  left: 889px;
+  transform: rotate(12deg);
+}
+
+/*Style for JS*/
+
+.clear{
+  display: none;
+}
+
+.gameArea{
+  display: flex;
+  height: 71%;
+  margin: 156px 20% 0 20%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameArea10 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card {
+  margin: 0 12px 28px 12px;
+  transition-duration: 0.3s;
+  perspective: 1000px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:not(.gameOver, .bug):hover {
+  cursor: pointer;
+  animation-name: moveCards;
+  animation-duration: 0.5s;
+  -webkit-transform: translate(0, -25px);
+  -ms-transform: translate(0, -25px);
+  transform: translate(0, -25px);
+}
+
+.cover {
+  background: url(img/card.png);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 218px;
+  height: 341px;
+}
+
+
+.bug {
+  background: url(img/bug.png);
+  border-radius: 10px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.gameOver {
+  background: url(img/gameOver.png);
+  border-radius: 10px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+@keyframes moveCards {
+  from {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0, -25px);
+    -ms-transform: translate(0, -25px);
+    transform: translate(0, -25px);
+  }
+}
