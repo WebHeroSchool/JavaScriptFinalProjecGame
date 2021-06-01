@@ -9,21 +9,20 @@ body {
 }
 
 .header {
-  margin: 130px auto  50px 100px;
+  margin: 135px auto  54px 102px;
 }
 .header__title {
   font-size: 57px;
-  line-height: 67px;
+  line-height: 48px;
   font-weight: 700;
 }
 .header__text {
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 19px;
   font-weight: 400;
 }
 .choice {
   font-weight: 700;
-  margin-left: 157px;
+  margin-left: 152px;
   line-height: 82px;
 }
 
@@ -51,11 +50,11 @@ body {
   font-size: 32px;
   color: #fff;
   background-color: #d62b2e;
-  width: 352px;
-  height: 95px;
+  width: 354px;
+  height: 97px;
   border-radius: 7px;
   transition: background .2s linear, color .1s linear;
-  margin: 112px auto auto -50px;
+  margin: 102px auto auto -50px;
 }
 
 .choice__button:hover {
