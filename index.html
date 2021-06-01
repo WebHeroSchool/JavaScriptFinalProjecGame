@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Find Bug Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Выберите уровень сложности:</h1>
+    <p class="header__text">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
+  </header>
+  <section class="choice">
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" name="level" id ="level1" value="easy" checked>
+      <label for="level1"> Простой</label>
+    </div>
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" name="level" id ="level2" value="normal">
+      <label for="level2"> Средний</label>
+    </div>
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" name="level" id ="level3" value="hard">
+      <label for="level3"> Сложный</label>
+    </div>
+    <button class="choice__button">Начать игру</button>
+  </section>
+  <div class="cards">
+    <div class="cards__disine1">
+      <img src="img/card.png" alt="card">
+    </div>
+    <div class="cards__disine2">
+      <img src="img/card.png" alt="card">
+    </div>
+  </div>
+  <script src="script.js"> </script>
+</body>
+</html>
