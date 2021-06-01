@@ -131,7 +131,6 @@ body {
   height: 100%;
 }
 
-
 .bug {
   background: url(img/bug.png);
   border-radius: 10px;
@@ -169,19 +168,23 @@ body {
   .header{
     margin: 123px auto 46px 74px;
   }
+
   .header__title {
     font-size: 52px;
     line-height: 62px;
   }
+
   .header__text {
     font-size: 20px;
     line-height: 23px;
   }
+
   .choice {
     margin-left: 126px;
     font-size: 46px;
     line-height: 66px;
   }
+
   .choice__button {
     font-size: 36px;
     width: 305px;
@@ -201,6 +204,7 @@ body {
     left: 571px;
     transform: rotate(12deg);
    }
+
   .gameArea{
     height: 61%;
     margin: 156px 28% 0 0%;
@@ -211,19 +215,23 @@ body {
   .header{
     margin: 118px auto 46px 49px;
   }
+
   .header__title {
     font-size: 50px;
     line-height: 60px;
   }
+
   .header__text {
     font-size: 18px;
     line-height: 21px;
   }
+
   .choice {
     margin-left: 126px;
     font-size: 46px;
     line-height: 66px;
   }
+
   .choice__button {
     font-size: 34px;
     width: 300px;
@@ -243,6 +251,7 @@ body {
     left: 540px;
     transform: rotate(12deg);
    }
+
   .gameArea{
     height: 61%;
     margin: 156px 28% 0 0%;
@@ -253,19 +262,23 @@ body {
   .header{
     margin: 113px auto 46px 29px;
   }
+
   .header__title {
     font-size: 45px;
     line-height: 55px;
   }
+
   .header__text {
     font-size: 16px;
     line-height: 21px;
   }
+
   .choice {
     margin-left: 120px;
     font-size: 42px;
     line-height: 62px;
   }
+
   .choice__button {
     font-size: 34px;
     width: 300px;
@@ -285,6 +298,7 @@ body {
     left: 540px;
     transform: rotate(12deg);
    }
+
   .gameArea{
     height: 61%;
     margin: 156px 28% 0 0%;
@@ -295,19 +309,23 @@ body {
   .header{
     margin: 70px auto 47px 35px;
   }  
+
   .header__title {
     font-size: 55px;
     line-height: 51px;
   }
+
   .header__text {
     font-size: 24px;
     line-height: 31px;
   }
+
   .choice {
     margin-left: 96px;
     font-size: 35px;
     line-height: 50px;
   }
+
   .choice__button {
     font-size: 26px;
     width: 239px;
@@ -334,10 +352,12 @@ body {
     left: 404px;
     transform: rotate(12deg);
   }
+
   .card{
     width: 190px;
     height: 290px;
   }
+
   .cover {
     background: url(img/card800.png);
     width: 97%;
@@ -368,40 +388,46 @@ body {
     height: 65%;
     margin: 141px 14% 0 14%;
   }
-  
 }
 
 @media (max-width: 650px) {
   .header{
     margin: 70px auto 47px 35px;
   }  
+
   .header__title {
     font-size: 45px;
     line-height: 38px;
   }
+
   .header__text {
     font-size: 20px;
     line-height: 25px;
   }
+
   .choice {
     margin-left: 96px;
     font-size: 35px;
     line-height: 50px;
   }
+
   .choice__button {
     font-size: 26px;
     width: 239px;
     height: 86px;
     margin: 47px auto auto -50px;
   }
+
   .cards__disine1,
   .cards__disine2 {
     display: none;
   }
+
   .card{
     width: 120px;
     height: 180px;
   }
+
   .cover {
     background: url(img/card600.png);
     width: 97%;
@@ -432,40 +458,47 @@ body {
     height: 38%;
     margin: 126px 10% 0 10%;
   }
-  
+
 }
 
 @media (max-width: 450px) {
   .header{
     margin: 70px auto 47px 35px;
   }  
+
   .header__title {
     font-size: 40px;
     line-height: 34px;
   }
+
   .header__text {
     font-size: 16px;
     line-height: 23px;
   }
+
   .choice {
     margin-left: 96px;
     font-size: 30px;
     line-height: 45px;
   }
+
   .choice__button {
     font-size: 22px;
     width: 222px;
     height: 76px;
     margin: 40px auto auto -50px;
   }
+
   .cards__disine1,
   .cards__disine2 {
     display: none;
   }
+
   .card{
     width: 100px;
     height: 150px;
   }
+
   .cover {
     background: url(img/card320.png);
     width: 97%;
@@ -492,43 +525,50 @@ body {
     height: 32%;
   }
   
-  .gameArea{
+  .gameArea {
     height: 46%;
     margin: 23px 20% 0 20%;
   }
+
 }
 
 @media (max-width: 320px) {
   .header{
     margin: 63px auto 47px 44px;
   }
+
   .header__title {
     font-size: 37px;
     line-height: 28px;
-   }  
+  }  
   .header__text {
     font-size: 16px;
     line-height: 23px;
   }
+
   .choice {
     margin-left: 96px;
     font-size: 30px;
     line-height: 45px;
   }
+
   .choice__button {
     font-size: 22px;
     width: 222px;
     height: 76px;
     margin: 40px auto auto -50px;
   }
+
   .cards__disine1,
   .cards__disine2 {
     display: none;
   }
+
   .card{
     width: 100px;
     height: 150px;
   }
+  
   .cover {
     background: url(img/card320.png);
     width: 97%;
